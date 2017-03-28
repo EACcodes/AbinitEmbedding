@@ -1,0 +1,5 @@
+xc_type=           2
+realspc=           1
+maxNoep=         200
+E-mstep=      0.0001
+acuracy=       5.d-7

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/eac_codes/!svn/ver/1420/Embedding/tools
+END
+include_pspline.sh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/eac_codes/!svn/ver/179/Embedding/tools/include_pspline.sh
+END
+wavefunctionreader.F90
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/eac_codes/!svn/ver/650/Embedding/tools/wavefunctionreader.F90
+END
+generic_install.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/eac_codes/!svn/ver/1420/Embedding/tools/generic_install.sh
+END
+augment_density.F90
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/eac_codes/!svn/ver/1355/Embedding/tools/augment_density.F90
+END
+applypatch.sh
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/eac_codes/!svn/ver/1419/Embedding/tools/applypatch.sh
+END
+density_reader.F90
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/eac_codes/!svn/ver/1043/Embedding/tools/density_reader.F90
+END

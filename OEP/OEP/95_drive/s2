@@ -1,0 +1,14 @@
+afford, atindx, &
+         & atindx1, dbl_nnsclo, cg, compch_fft, cpus, delta_e, dielop,&
+         & dielstrt, dphase, dtfil, dtefield, dtset, eigen, &
+         & electronpositron,energies,etotal,gbound_diel,&
+         & gmet,gprimd,grnl,gsqcut,hdr,indsym,irrzon,irrzondiel,&
+          & istep_mix,kg,kg_diel,kxc,lmax_diel,mcg,mgfftdiel,mpi_enreg,&
+         & my_natom,nattyp,nfftdiel,ngfftdiel,nfftf,nhat,nkxc,&
+         & npwarr,npwdiel,res2,nvresid,occ,n3xccc, xccc3d,&
+         & computed_forces,optres,paw_dmft,paw_ij,pawang,pawfgr,pawfgrtab,&
+         & pawrhoij,pawtab,phnons,phnonsdiel,ph1d,ph1ddiel,psps,&
+         & pwind,pwind_alloc,pwnsfac,quit, resid,residm,rhog,rhor,&
+         & rmet,rprimd, run_params, susmat,symrec,taug,taur,tollist,&
+         & ucvol,wffnew,wffnow,&
+         & wvl,xred,ylm,ylmgr,ylmdiel, vhartr, vpsp, vtrial, vxctau)       

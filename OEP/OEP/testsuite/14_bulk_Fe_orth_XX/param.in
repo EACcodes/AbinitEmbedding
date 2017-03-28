@@ -1,0 +1,7 @@
+xc_type=           3
+realspc=           0
+gradscl=         0.5
+vhrtrpf=         0.5
+maxNoep=         100
+E-mstep=      0.0001
+acuracy=       1.d-9

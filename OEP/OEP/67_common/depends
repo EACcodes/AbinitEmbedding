@@ -1,0 +1,2 @@
+get_XC_potential.o:	fourierhlp.o
+SpencerXX.o:		fourierhlp.o

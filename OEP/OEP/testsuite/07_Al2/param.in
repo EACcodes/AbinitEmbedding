@@ -1,0 +1,7 @@
+xc_type=           1
+realspc=           0
+maxNoep=         200
+E-mstep=      0.0001
+acuracy=       1.d-8
+CGaccur=      1.d-12
+

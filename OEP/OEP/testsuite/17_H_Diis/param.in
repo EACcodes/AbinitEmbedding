@@ -1,0 +1,10 @@
+xc_type=           1
+optalgo=           4
+gradscl=         0.2
+realspc=           0
+maxNoep=         100
+E-mstep=      0.0001
+acuracy=       1.d-8
+ds_thrs=  0.00000001
+ds_extP=           4
+ds_mxEP=           4

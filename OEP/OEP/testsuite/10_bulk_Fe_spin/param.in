@@ -1,0 +1,7 @@
+xc_type=           1
+realspc=           0
+maxNoep=         100
+E-mstep=      0.0001
+acuracy=       1.d-9
+spngrad=          1.
+spndeps=      0.0001

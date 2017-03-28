@@ -1,0 +1,7 @@
+xc_type=           l
+optalgo=           4
+gradscl=         0.2
+realspc=           0
+maxNoep=         100
+E-mstep=      0.0001
+acuracy=       1.d-8

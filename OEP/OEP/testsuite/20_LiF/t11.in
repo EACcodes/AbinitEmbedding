@@ -1,0 +1,49 @@
+# Crystalline LiF
+
+#Definition of the unit cell
+                  # lengths of the primitive vectors (in Bohr)
+acell 3.985 3.985 5.64 angstrom
+rprim  1.0  0.0  0.0   # FCC primitive vectors (to be scaled by acell)
+       0.0  1.0  0.0 
+       0.0  0.0  1.0
+
+#rprim 1 0 0  0 1 0  0 0 1 # This line, defining orthogonal primitive vectors,
+                           # is commented, because it is precisely the default value of rprim
+
+
+#Definition of the atom types
+ntypat 2          # There is only one type of atom
+znucl 3 9         # The keyword "znucl" refers to the atomic number of the 
+                  # possible type(s) of atom. The pseudopotential(s) 
+                  # mentioned in the "files" file must correspond
+                  # to the type(s) of atom. Here, the only type is Hydrogen.
+                  
+
+# Suppress use of symmetries                   
+istwfk 16*1
+nsym 1
+
+#Definition of the atoms
+natom 4           # There are two atoms
+typat 1 1 2 2         # They both are of type 1, that is, Hydrogen
+xred             # This keyword indicates that the location of the atoms
+   0.0  0.0  0.0     # Triplet giving the REDUCED coordinate of atom 1.
+   0.5  0.5  0.5     # Triplet giving the REDUCED coordinate of atom 1.
+   0.5  0.5  0.0     # Triplet giving the REDUCED coordinate of atom 1.
+   0.0  0.0  0.5     # Triplet giving the REDUCED coordinate of atom 1.
+
+#Definition of the planewave basis set
+ecut 12.0         # Maximal plane-wave kinetic energy cut-off, in Hartree
+
+ixc 1
+
+#Definition of the k-point grid
+#Definition of the k-point grid
+ngkpt 2 2 2       # This is a 2x2x2 FCC grid, based on the primitive vectors
+
+#Definition of the SCF procedure
+nstep 30          # Maximal number of SCF cycles
+toldfe 1.0d-8     # Will stop when, twice in a row, the difference 
+                  # between two consecutive evaluations of total energy 
+                  # differ by less than toldfe (in Hartree) 
+                  # This value is way too large for most realistic studies of materials
